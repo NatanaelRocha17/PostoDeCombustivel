@@ -227,16 +227,17 @@ iframe{
     height: 100vh;
     width: 88%;
 }
-#t1{
-    display: none;
-}
+
 #t2{
-    display: block;
+    display: none;
 }
 #carrosel2{
     display: none;
 }
 @media screen and (max-width: 650px){
+    #t1{
+        display: none;
+    }
     #d-inline{
         /*display: none;/*elemento não existe na tela*/
         display: block;
@@ -299,7 +300,7 @@ iframe{
     }
     #t2{
         display: block;
-        font-size: 12pt;
+        font-size: 14pt;
     }
     
     #servicos{
